@@ -8,6 +8,8 @@
         <p class="card-text">
           {{ feedEntry.FeedEntryContentSanitized }}
         </p>
+        <br>
+        <a :href="feedEntry.FeedEntryLink" target="_blank"><b-button >Link to Article</b-button></a>
         <div slot="footer">
           {{ feedEntry.FeedEntryAuthor }} | {{ feedEntry.FeedEntryPublished | moment("dddd, MMM Do") }}
         </div> 
@@ -20,7 +22,6 @@
 </template>
 
 <script>
-import router from '@/router'
 import Amplify, { API } from 'aws-amplify';
 import awsmobile from '../aws-exports';
 
