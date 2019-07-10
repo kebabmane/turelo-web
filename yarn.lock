@@ -1537,11 +1537,12 @@ autoprefixer@^9.4.8:
     postcss "^7.0.14"
     postcss-value-parser "^3.3.1"
 
-aws-amplify-vue@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/aws-amplify-vue/-/aws-amplify-vue-0.2.9.tgz#67c01ef7beed4e7a63a58756b8a9d337cdd740b8"
-  integrity sha512-m5ncz0lBdCCtI7nexcLT+Y9/g3RNpJ1miEcGLuHzx4mOHnhW4VyrHn/PO1lMSnYASnxtRGDHKID1MnWswKgI9g==
+aws-amplify-vue@^0.2.13:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/aws-amplify-vue/-/aws-amplify-vue-0.2.13.tgz#798bac0cfeeca2f9a3af7ed8f886fd01a4bd0f87"
+  integrity sha512-3YFkcVH4Hm+4wIelxJDudCt1VaL/j1bwy0d6z4j8YMfqLUS12KG1bSEoit2YBWjmnb89VQFdCnJOuBoq1/Y7Lg==
   dependencies:
+    lodash.orderby "^4.6.0"
     qrcode.vue "^1.6.0"
     vue "^2.5.17"
     vue2-filters "^0.3.0"
@@ -4931,6 +4932,11 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
+lodash.orderby@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.orderby/-/lodash.orderby-4.6.0.tgz#e697f04ce5d78522f54d9338b32b81a3393e4eb3"
+  integrity sha1-5pfwTOXXhSL1TZM4syuBozk+TrM=
 
 lodash.transform@^4.6.0:
   version "4.6.0"
