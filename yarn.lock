@@ -7882,10 +7882,10 @@ vue-cli-plugin-axios@^0.0.4:
   resolved "https://registry.yarnpkg.com/vue-cli-plugin-axios/-/vue-cli-plugin-axios-0.0.4.tgz#29d4eb48275c7fe15b92e1fd5d95fbe2a966436f"
   integrity sha512-p2b/fvPJuPBnvU8027PAAuU5DiOzUn2lku8XLG/f6c8FU0N+/MXWZAlOuHhqd9e7+KIZitwe/c8qlmv7TglbTg==
 
-vue-cli-plugin-bootstrap-vue@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-bootstrap-vue/-/vue-cli-plugin-bootstrap-vue-0.2.0.tgz#7938b59482b2dbb86d880f2e39a880caec7da4e2"
-  integrity sha512-sSl8JflkA2FleLkS1KfhxsRhligvS2fqLB+m+3lbJMR6W9FvdvAKfEQfquHCk1Og+Uy34MW3noZrEf/deTX26Q==
+vue-cli-plugin-bootstrap-vue@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-bootstrap-vue/-/vue-cli-plugin-bootstrap-vue-0.5.0.tgz#150b0eb9ddbeba21ccedc26edad8d14b93789e2d"
+  integrity sha512-J3tx6iddLo45vCr/ItiV6XqtWsEWQyYGCXIQoMb4UCnCCh8/XXtDofDrpieQ8zkAIl4b6gMGLx3E1HlZER+Djw==
 
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
