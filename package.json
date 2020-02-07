@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.2.5",
-    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-babel": "^4.2.2",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "axios": "^0.18.0",
