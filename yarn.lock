@@ -1537,14 +1537,15 @@ autoprefixer@^9.4.8:
     postcss "^7.0.14"
     postcss-value-parser "^3.3.1"
 
-aws-amplify-vue@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/aws-amplify-vue/-/aws-amplify-vue-0.2.9.tgz#67c01ef7beed4e7a63a58756b8a9d337cdd740b8"
-  integrity sha512-m5ncz0lBdCCtI7nexcLT+Y9/g3RNpJ1miEcGLuHzx4mOHnhW4VyrHn/PO1lMSnYASnxtRGDHKID1MnWswKgI9g==
+aws-amplify-vue@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/aws-amplify-vue/-/aws-amplify-vue-2.1.5.tgz#56e2a79ee924bd108dea4d9b6e7613142e936569"
+  integrity sha512-Dr/ZJJUHlvCanIjcrzhPmOt3QhTBvpDvxRs2L9UOdSs9klqxuA04Akwl1dxeaaYL9UZ0VXF0LGu/PPootcO0bg==
   dependencies:
+    lodash.orderby "^4.6.0"
     qrcode.vue "^1.6.0"
     vue "^2.5.17"
-    vue2-filters "^0.3.0"
+    vue2-filters "^0.7.2"
 
 aws-amplify@^1.1.26:
   version "1.1.26"
@@ -4932,6 +4933,11 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.orderby@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.orderby/-/lodash.orderby-4.6.0.tgz#e697f04ce5d78522f54d9338b32b81a3393e4eb3"
+  integrity sha1-5pfwTOXXhSL1TZM4syuBozk+TrM=
+
 lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.transform/-/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
@@ -7965,10 +7971,10 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue2-filters@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.3.0.tgz#3d6b71169fb14b32a2ddbfa45f94d9a0fdee1094"
-  integrity sha512-/i2gHtSfedzbgaC6rHuWTggCW9G6mLWZQ8TQgYciE2ei9iOlyB4iobubNr/7APjoYmupFtXv125yZfXygPV2+A==
+vue2-filters@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.7.2.tgz#762e8b24c9ccaa152ac43b06c21c3e41ed6c13eb"
+  integrity sha512-7I74isiBUQFGaNbVv57NzHGqh54cLe0JNJmJmu66wxP5eOK/CqHN4iqHMgwPPPvPbgbFbpI/GjbHiIx8tNruwg==
 
 vue@^2.5.17, vue@^2.6.6:
   version "2.6.10"
